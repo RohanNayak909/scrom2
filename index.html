@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>SCORM Launch</title>
+
+    <!-- Meta refresh fallback -->
+    <meta http-equiv="refresh" content="0; url=scormcontent/index.html" />
+
+    <script>
+        // JS redirect (faster, better)
+        (function () {
+            console.log("[SCORM] Redirecting to scormcontent/index.html");
+            window.location.replace("scormcontent/index.html");
+        })();
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 80px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Launching course…</h3>
+    <p>If nothing happens, <a href="scormcontent/index.html">click here</a>.</p>
+</body>
+</html>
